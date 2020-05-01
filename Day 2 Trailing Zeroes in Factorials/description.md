@@ -58,8 +58,8 @@ Una forma simple es calcular: `floor(n / 5)`
 
 Por ejemplo para:
 
-* n = 7 `floor(7/5) = 1`
-* n = 10 `floor(10/5) = 2` 
+* n = 7 `floor(7 / 5) = 1`
+* n = 10 `floor(10 / 5) = 2` 
 
 Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más ceros que el que nos da nuestra función floor().
 
@@ -68,7 +68,7 @@ Por ejemplo:  n = 28 `floor(28/5) = 5`   y el número de 0 se convierte en 6. Ma
 Contando ceros finales en n! = Cuenta de cinco en cinco en factores primos de `n! = floor (n / 5) + floor (n / 25) + floor (n / 125) + ....`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NTM4MjUxLC0xMDA1ODgxNzIsNTgyNT
-M5OTIxLDMyNDU5OTQ3NSwtOTU5NjI4Mjk4LDEwMjUwMDk3NjQs
-LTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
+eyJoaXN0b3J5IjpbLTY0ODE4MjUyMSwtMTAwNTg4MTcyLDU4Mj
+UzOTkyMSwzMjQ1OTk0NzUsLTk1OTYyODI5OCwxMDI1MDA5NzY0
+LC0xNjc4MTc1MjYwLDY2MjUzMjYwMF19
 -->
