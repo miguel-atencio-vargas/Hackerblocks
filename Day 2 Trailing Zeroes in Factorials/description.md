@@ -58,7 +58,7 @@ Una forma simple es calcular: `floor(n / 5)`
 
 Por ejemplo para:
 
-* n = 100 `floor(100/5) = 20`  luego elevamos 5:  `floor(100/5²) = 4`
+* n = 100 `floor(100/5¹) = 20`  luego elevamos 5:  `floor(100/5²) = 4`
 
  Con lo cual solo debemos sumar esos dos resultados: 20 + 4 = 24 ceros que tiene 100! al final.
 
@@ -81,7 +81,7 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjAyODYwMSwtNjAzNTEwMzg5LC02ND
+eyJoaXN0b3J5IjpbMTEyNjU3NDA4NiwtNjAzNTEwMzg5LC02ND
 gxODI1MjEsLTEwMDU4ODE3Miw1ODI1Mzk5MjEsMzI0NTk5NDc1
 LC05NTk2MjgyOTgsMTAyNTAwOTc2NCwtMTY3ODE3NTI2MCw2Nj
 I1MzI2MDBdfQ==
