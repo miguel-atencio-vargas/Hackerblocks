@@ -61,10 +61,10 @@ Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 
 
 Por ejemplo:  n = 28 `floor(28/5) = 5`   y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
-Contando ceros finales en n! = Cuenta de 5's en factores primos de `n! = floor (n / 5) + floor (n / 25) + floor (n / 125) + ....`
+Contando ceros finales en n! = Cuenta de cinco en cinco en factores primos de `n! = floor (n / 5) + floor (n / 25) + floor (n / 125) + ....`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTQ0NzQyLDU4MjUzOTkyMSwzMjQ1OT
-k0NzUsLTk1OTYyODI5OCwxMDI1MDA5NzY0LC0xNjc4MTc1MjYw
-LDY2MjUzMjYwMF19
+eyJoaXN0b3J5IjpbLTEwMDU4ODE3Miw1ODI1Mzk5MjEsMzI0NT
+k5NDc1LC05NTk2MjgyOTgsMTAyNTAwOTc2NCwtMTY3ODE3NTI2
+MCw2NjI1MzI2MDBdfQ==
 -->
