@@ -14,7 +14,8 @@ for i in range(1,36):
 
 ```
 ![](https://i.imgur.com/237or29.png)
-La solucion seria al problema seria:: 
+
+La solucion seria al problema seria:
 ```
 import math
 n = int(input())
@@ -40,5 +41,5 @@ Nota: el recuento de ceros necesita que ambos números sean iguales.
 Podemos observar fácilmente que el número de 2 en los factores primos siempre es $>=  5$. Entonces, si contamos 5s en factores primos, hemos terminado. ¿Cómo contar el número total de 5 en factores primos de n? Una forma simple es calcular el piso (n / 5). Por ejemplo, 7! tiene uno 5, 10! Tiene dos 5s. Ya está hecho, hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5. Por ejemplo, si consideramos 28 !, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNTMyNjAwXX0=
+eyJoaXN0b3J5IjpbLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
 -->
