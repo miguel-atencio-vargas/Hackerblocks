@@ -55,9 +55,12 @@ Una forma simple es calcular: `floor(n / 5)`
 Por ejemplo para:
 
 * n = 7 `floor(7/5) = 1`
-* n = 10 `floor(10` Tiene dos 5s. Ya está hecho, hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5. Por ejemplo, si consideramos 28 !, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
+* n = 10 `floor(10/5) = 2` 
+Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5.
+
+Por ejemplo, si consideramos n = 28, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk3MzUzMjQsLTk1OTYyODI5OCwxMD
-I1MDA5NzY0LC0xNjc4MTc1MjYwLDY2MjUzMjYwMF19
+eyJoaXN0b3J5IjpbLTE1NTUyNDI1NSwtOTU5NjI4Mjk4LDEwMj
+UwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
 -->
