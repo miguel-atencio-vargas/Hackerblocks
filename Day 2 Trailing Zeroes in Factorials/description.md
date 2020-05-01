@@ -61,14 +61,24 @@ Por ejemplo para:
 * n = 7 `floor(7 / 5) = 1`
 * n = 10 `floor(10 / 5) = 2` 
 
-Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más ceros que el que nos da nuestra función floor().
-
-Por ejemplo:  n = 28 `floor(28/5) = 5`   y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
-
-Contando ceros finales en n! = Cuenta de cinco en cinco en factores primos de `n! = floor (n / 5) + floor (n / 25) + floor (n / 125) + ....`
-
+```c++
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int N, c = 0, e = 1, form;
+    cin>>N;
+    while(true){
+        form = floor(N/pow(5, e));
+        if(form == 0) break;
+        c+=form;
+        e++;
+    }
+    cout<<c<<endl;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE4MjUyMSwtMTAwNTg4MTcyLDU4Mj
-UzOTkyMSwzMjQ1OTk0NzUsLTk1OTYyODI5OCwxMDI1MDA5NzY0
-LC0xNjc4MTc1MjYwLDY2MjUzMjYwMF19
+eyJoaXN0b3J5IjpbLTEyNzAyMTI4OCwtNjQ4MTgyNTIxLC0xMD
+A1ODgxNzIsNTgyNTM5OTIxLDMyNDU5OTQ3NSwtOTU5NjI4Mjk4
+LDEwMjUwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
 -->
