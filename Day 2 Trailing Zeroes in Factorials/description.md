@@ -57,12 +57,12 @@ Por ejemplo para:
 * n = 7 `floor(7/5) = 1`
 * n = 10 `floor(10/5) = 2` 
 
-Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más ceros que el que nos da nuestra funcion floor().
+Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más ceros que el que nos da nuestra función floor().
 
-Por ejemplo, si consideramos n = 28, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
+Por ejemplo:  n=28 `floor(28/5) = 5` si consideramos n = 28, obtenemos un 5  y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTI1NTI4NywzMjQ1OTk0NzUsLTk1OT
-YyODI5OCwxMDI1MDA5NzY0LC0xNjc4MTc1MjYwLDY2MjUzMjYw
-MF19
+eyJoaXN0b3J5IjpbNjY3OTAxOTMxLDMyNDU5OTQ3NSwtOTU5Nj
+I4Mjk4LDEwMjUwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAw
+XX0=
 -->
