@@ -58,7 +58,7 @@ Una forma simple es calcular: `floor(n / 5)`
 
 Por ejemplo para:
 
-* n = 100 `floor(100 / 5) = 20`  luego elevamos 5:  `floor(20 / 5²) = 20`
+* n = 100 `floor(100 / 5) = 20`  luego elevamos 5:  `floor(100 / 5²) = 4 `
 
 ```c++
 #include <iostream>
@@ -77,7 +77,7 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA3MjM5ODMsLTY0ODE4MjUyMSwtMT
-AwNTg4MTcyLDU4MjUzOTkyMSwzMjQ1OTk0NzUsLTk1OTYyODI5
-OCwxMDI1MDA5NzY0LC0xNjc4MTc1MjYwLDY2MjUzMjYwMF19
+eyJoaXN0b3J5IjpbOTIxMDYzMzA2LC02NDgxODI1MjEsLTEwMD
+U4ODE3Miw1ODI1Mzk5MjEsMzI0NTk5NDc1LC05NTk2MjgyOTgs
+MTAyNTAwOTc2NCwtMTY3ODE3NTI2MCw2NjI1MzI2MDBdfQ==
 -->
