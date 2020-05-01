@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588257103 source:/home/atencio/Documentos/Desarrollo/hackerblocks/Ganesha Pattern/main.cpp
+	<iostream>
+	<string>
+
