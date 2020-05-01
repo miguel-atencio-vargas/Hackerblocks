@@ -50,9 +50,11 @@ Podemos observar fácilmente que el número de 2 en los factores primos siempre 
 
 **¿Cómo contar el número total de 5 en factores primos de n?** 
 
-Una forma simple es calcular: `floor(n / 5)`. Por ejemplo, 7! tiene uno 5, 10! Tiene dos 5s. Ya está hecho, hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5. Por ejemplo, si consideramos 28 !, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
+Una forma simple es calcular: `floor(n / 5)`. 
+
+Por ejemplo para n = 7 se tiene uno 5, 10! Tiene dos 5s. Ya está hecho, hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5. Por ejemplo, si consideramos 28 !, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjA2NDUyOSwtOTU5NjI4Mjk4LDEwMj
+eyJoaXN0b3J5IjpbLTEwMTc5NTQyMywtOTU5NjI4Mjk4LDEwMj
 UwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
 -->
