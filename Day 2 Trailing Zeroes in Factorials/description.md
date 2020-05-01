@@ -56,11 +56,12 @@ Por ejemplo para:
 
 * n = 7 `floor(7/5) = 1`
 * n = 10 `floor(10/5) = 2` 
+
 Y ya lo tendríamos, pero hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5.
 
 Por ejemplo, si consideramos n = 28, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUyNDI1NSwtOTU5NjI4Mjk4LDEwMj
-UwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
+eyJoaXN0b3J5IjpbMzI0NTk5NDc1LC05NTk2MjgyOTgsMTAyNT
+AwOTc2NCwtMTY3ODE3NTI2MCw2NjI1MzI2MDBdfQ==
 -->
