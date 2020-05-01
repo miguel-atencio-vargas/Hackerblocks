@@ -1,12 +1,12 @@
 # [Day 2 - Problem Solving - Trailing Zeroes in Factorials](https://online.codingblocks.com/app/player/92078/content/80922/7748)
-Dado un número entero $n$, escriba una función que devuelva la cantidad  de ceros finales en (n)!
+Dado un número entero n, escriba una función que devuelva la cantidad  de ceros finales en n!
 
 Condiciones:   1 <= n <= 10^9
 Este ejercicio puede tener dos aproximaciones dependiendo de el tamaño de la entrada: 
 
- 1. Naive aproach
-Inicialmente se podría calcular el factorial de ese numero (independientemente del método) y de ese calculo realizar divisiones sucesivas por 10 hasta obtener un modulo diferente de $0$.
-**Primero generaremos los factoriales del 1 al 36
+ **1. Naive aproach**
+Inicialmente se podría calcular el factorial de ese numero (independientemente del método) y de ese calculo realizar divisiones sucesivas por 10 hasta obtener un modulo diferente de 0.
+**Primero generaremos los factoriales del 1 al 36**
 ```python
 import math
 for i in range(1,36):
@@ -42,6 +42,6 @@ Nota: el recuento de ceros necesita que ambos números sean iguales.
 Podemos observar fácilmente que el número de 2 en los factores primos siempre es $>=  5$. Entonces, si contamos 5s en factores primos, hemos terminado. ¿Cómo contar el número total de 5 en factores primos de n? Una forma simple es calcular el piso (n / 5). Por ejemplo, 7! tiene uno 5, 10! Tiene dos 5s. Ya está hecho, hay una cosa más a considerar. Los números como 25, 125, etc. tienen más de un 5. Por ejemplo, si consideramos 28 !, obtenemos un 5 adicional y el número de 0 se convierte en 6. Manejar esto es simple, primero divida n entre 5 y elimine todos los 5 únicos, luego dividir entre 25 para eliminar 5s adicionales y así sucesivamente. A continuación se presenta la fórmula resumida para contar los ceros finales.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODY4MjY1MiwtOTU5NjI4Mjk4LDEwMj
-UwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
+eyJoaXN0b3J5IjpbNjE3NjE4MTY1LC05NTk2MjgyOTgsMTAyNT
+AwOTc2NCwtMTY3ODE3NTI2MCw2NjI1MzI2MDBdfQ==
 -->
