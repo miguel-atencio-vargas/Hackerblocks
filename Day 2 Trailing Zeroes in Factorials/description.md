@@ -59,6 +59,7 @@ Una forma simple es calcular: `floor(n / 5)`
 Por ejemplo para:
 
 * n = 100 `floor(100/5) = 20`  luego elevamos 5:  `floor(100/5²) = 4`
+
  Con lo cual solo debemos sumar esos dos resultados: 20 + 4 = 24 ceros que tiene 100! al final.
 
 A continuación su implementación en C++ :
@@ -80,7 +81,8 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzUxMDM4OSwtNjQ4MTgyNTIxLC0xMD
-A1ODgxNzIsNTgyNTM5OTIxLDMyNDU5OTQ3NSwtOTU5NjI4Mjk4
-LDEwMjUwMDk3NjQsLTE2NzgxNzUyNjAsNjYyNTMyNjAwXX0=
+eyJoaXN0b3J5IjpbMTcwNjAyODYwMSwtNjAzNTEwMzg5LC02ND
+gxODI1MjEsLTEwMDU4ODE3Miw1ODI1Mzk5MjEsMzI0NTk5NDc1
+LC05NTk2MjgyOTgsMTAyNTAwOTc2NCwtMTY3ODE3NTI2MCw2Nj
+I1MzI2MDBdfQ==
 -->
