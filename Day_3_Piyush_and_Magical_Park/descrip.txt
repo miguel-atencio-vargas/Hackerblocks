@@ -1,0 +1,31 @@
+Piyush se pierde en un parque mágico que contiene N filas y columnas M. Para salir del parque de manera segura y regresar a casa, necesita al menos K cantidad de fuerza. Dado un patrón N por M, su tarea es encontrar el clima que Piyush pueda alguna vez escapé del parque.
+
+Piyush entra al parque con fuerza S. El parque está lleno de algunos obstáculos denotados por ‘.’, Algunos frijoles mágicos denotados por ‘*’ y algunos bloqueos denotados como ‘#’. Si encuentra un obstáculo (.), La fuerza disminuye en 2. Si encuentra un frijol mágico ('*'), su fuerza aumenta en 5. Piyush solo puede caminar en fila, así que comienza desde la izquierda de una fila y se mueve hacia bien y él hace esto para cada fila. Sin embargo, cuando encuentra un bloqueo (#), no puede avanzar más en su fila actual y simplemente salta al comienzo de una nueva línea sin perder ninguna fuerza. Piyush requiere una fuerza de 1 por cada paso. Su fuerza siempre debe ser mayor que K mientras atraviesa o Piyush se perderá. Suponga que Piyush puede cambiar inmediatamente de la última fila al comienzo de la siguiente sin perder fuerza, ayude a Piyush a escapar del parque. Su escape es exitoso si puede regresar a casa con al menos K de fuerza.
+
+
+
+
+
+
+
+Input 1 <= N,M,K,S <= 100
+4 4 5 20
+. . * .
+. # . .
+* * . .
+. # * *
+
+Output Format
+Print "Yes" or "No" depending on whether Piyush can escape or not. If the answer is "Yes", also print the amount of strength he escaped with.
+
+Yes
+13
+
+Piyush comienza con fuerza S = 20. 
+Para la primera fila, se encuentra con un obstáculo "." Y su fuerza se reduce en 3 (2 + 1 (1 por dar el paso)). De manera similar después del segundo obstáculo, su fuerza se reduce en 3 nuevamente y se convierte en S = 14. Luego se encuentra con un '*', y su fuerza aumenta en 5 pero disminuye en 1 por dar el paso. Luego, su fuerza se reduce en 2 (no en 3, ya que saltará sin fuerza adicional desde aquí) después del último '.' . Al final de la primera fila, su fuerza es S = 16. 
+
+En la segunda fila, se encuentra con un "." Y su fuerza se reduce en 3 (2 + 1 para el '.'). Luego se encuentra con un '#' y sin perder fuerza adicional simplemente salta a la primera celda de la siguiente fila. 
+
+Del mismo modo, su fuerza al comienzo de la tercera fila es 13 y después de completarla, su fuerza es 16. En la cuarta fila, primero encuentra un '.' y su fuerza se reduce a 13. Luego se encuentra con un '#' en la segunda posición y salta a la siguiente fila.
+
+Como esta es la última fila, cuando salta, escapa del parque. Su fuerza restante es 13. Como esto es claramente mayor que K = 5, su fuga fue exitosa. Piyush escapó con fuerza final = 13.
