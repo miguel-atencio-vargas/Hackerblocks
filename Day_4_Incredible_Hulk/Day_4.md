@@ -68,13 +68,13 @@ Por ejemplo para n = 7: `log2(7) = 2 + 1 = 3   ` iteraciones.
 Por ejemplo para n = 8: `log2(8) = 3 + 1 = 4   ` iteraciones.
 Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
 Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
-
-Esto a pesar de ser bastante optimo frente a un *Naive approach* 
+En c++ un int puede llegar a tener 2 · 10⁹ entonces 
+Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
 ### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzcxNzUwNiwtODA2NjY4MDUzLC0yMT
-M4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgx
-ODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1Ni
-wtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNjQ5MDE0MzU5LC04MDY2NjgwNTMsLTIxMz
+gyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4
+NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC
+0xMjA2OTAxMjk1LDczMDk5ODExNl19
 -->
