@@ -124,9 +124,12 @@ int main(){
 
 La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
 ### Tercer Método
-Es siguiente método es llamado: [**__builtin__ popcount()**](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/) 
+Es siguiente método es llamado: [**__builtin__ popcount(x)**](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/) 
+```c++
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTkxMjkxMywxMzcyNDk1Nzk3LC0xMT
+eyJoaXN0b3J5IjpbMTg1NjMwOTA0MCwxMzcyNDk1Nzk3LC0xMT
 U2MTY1OTMwLDE3MzAxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUz
 MzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNi
 wxNjUyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0
