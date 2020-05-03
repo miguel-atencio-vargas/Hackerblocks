@@ -43,7 +43,7 @@ Un ejemplo de su utilidad es:
 Dado un numero N, encontrar el número de bits "encendidos"(1) en la representación binaria del mismo:
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)
 ####  Primer Método:
-Este metodo se base en que si nosotros aplicamos la operacion de AND 
+Este metodo se basa en que si nosotros aplicamos la operacion de AND entre N y 1 podriamos saber que el numero al final de N es `1 o 0`  y guardamos esa operacion en nuestro  
 ```c++
 #include <iostream>
 using namespace std;
@@ -78,8 +78,8 @@ Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros ma
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjM0NDA0NCw2NTUzODgwMjQsLTgwNj
-Y2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgy
-MCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLT
-E1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NTEzMzkzMTUsNjU1Mzg4MDI0LC04MD
+Y2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4
+MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC
+0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
 -->
