@@ -28,8 +28,10 @@ Líneas T de salida, que contienen el número mínimo de movimientos requeridos 
 > 2
 1
 2
-#### Exp
+#### Explicación
+
+Deje que los pasos totales sean n, encuentre el número entero más cercano que sea de potencia 2 y menor que n. deja que sea k. ahora los pasos restantes para cubrir son n-k y resultado = 1 + pasos min para los pasos restantes (n-k).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTA4MzkzMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ3MTYxNTEwMSw3MzA5OTgxMTZdfQ==
 -->
