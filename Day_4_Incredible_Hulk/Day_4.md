@@ -39,8 +39,12 @@ Para poder solucionar este ejercicio se utilizara un enfoque de **Operar a nivel
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/Operators-In-C.png)
 Para ello trataremos de encontrar el numero de conjuntos de bits:
 
-Por ejemplo dado un numero N, encontrar el número de bits establecidos en la representación binaria del mismo.
+Por ejemplo dado un numero N, encontrar el número de bits "encendidos"(1) en la representación binaria del mismo:
+![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNT
-cwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMz
+E5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5
+ODExNl19
 -->
