@@ -64,8 +64,8 @@ int main(){
 Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log2(n))` en la practica seria: `log2(n) +1` bits.  
 > La razón de por que es logaritmo de base 2 de N es porque los binarios son potencias de 2.
 
-Por ejemplo para n = 7: `log2(7) = 2 + 1 = 3   ` iteraciones.
-Por ejemplo para n = 8: `log2(8) = 3 + 1 = 4   ` iteraciones.
+Por ejemplo para n = 7: ` log2(7) = 2 + 1 = 3  ` iteraciones.
+Por ejemplo para n = 8: ` log2(8) = 3 + 1 = 4  ` iteraciones.
 Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
 Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
 En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) = 30` iteraciones.
@@ -73,10 +73,12 @@ En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·
 Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
 ### Segundo Método
 
+```c++
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzIyNzM4NCw2NTUzODgwMjQsLTgwNj
-Y2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgy
-MCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLT
-E1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDkxMTIyNzI1LDY1NTM4ODAyNCwtODA2Nj
+Y4MDUzLC0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIw
+LC0xNzU1ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMT
+U3MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
