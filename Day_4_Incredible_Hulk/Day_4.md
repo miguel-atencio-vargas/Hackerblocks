@@ -69,13 +69,13 @@ Por ejemplo para n = 8: `log2(8) = 3 + 1 = 4   ` iteraciones.
 Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
 Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
 En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) = 30` iteraciones.
-En c++ un `long long` puede llegar a tener 9 · 10 entonces seria `log2(2·10⁹) = 30` iteraciones.
-
+En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
 Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
 ### Segundo Método
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MDk0NDQ5LC04MDY2NjgwNTMsLTIxMz
+eyJoaXN0b3J5IjpbNjU1Mzg4MDI0LC04MDY2NjgwNTMsLTIxMz
 gyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4
 NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC
 0xMjA2OTAxMjk1LDczMDk5ODExNl19
