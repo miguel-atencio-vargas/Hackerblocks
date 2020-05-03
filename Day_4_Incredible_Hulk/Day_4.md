@@ -95,8 +95,6 @@ n = 7 -> 0111 AND
 n = 0  -> 0000 El nuevo valor de N en la segunda iteracion.
 ```
 Como se puede observar solo debemos acumular la cantidad de veces que se repite esto hasta que `N = 0`
-La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)`
-
 ```c++
 #include <iostream>
 using namespace std;
@@ -112,11 +110,14 @@ int main(){
     return 0;
 }
 ```
+
+### Analisis de complejidad
+La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzg4MjY3NywtMTE1NjE2NTkzMCwxNz
-MwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4
-MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNy
-wtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5
-ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5OD
-ExNl19
+eyJoaXN0b3J5IjpbMzY4MDYwOTEzLC0xMTU2MTY1OTMwLDE3Mz
+AxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgw
+MjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC
+00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4
+ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MT
+E2XX0=
 -->
