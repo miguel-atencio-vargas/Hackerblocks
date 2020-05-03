@@ -126,7 +126,11 @@ La operación AND que realizamos elimina de derecha a izquierda los conjuntos de
 ### Tercer Método
 Es siguiente método es llamado: [**__builtin__ popcount(x)**](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/) 
 ```c++
-
+int main(){
+    int N;
+    cin>> N;
+    cout<<"La cantidad de 1's es: "<<__builtin_popcount(N)<<endl;
+} 
 ```
 
 
@@ -152,7 +156,7 @@ int main(){
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODkxNDc3LDEzNzcxMjAzODEsMTg1Nj
+eyJoaXN0b3J5IjpbODkzMjk4MjQ2LDEzNzcxMjAzODEsMTg1Nj
 MwOTA0MCwxMzcyNDk1Nzk3LC0xMTU2MTY1OTMwLDE3MzAxMTYz
 OTAsLTcxOTQ5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgwMjQsLT
 gwNjY2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAx
