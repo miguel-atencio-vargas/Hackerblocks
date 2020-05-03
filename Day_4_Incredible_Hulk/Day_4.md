@@ -50,6 +50,10 @@ Este metodo se basa en que si nosotros aplicamos la operacion de AND entre N y 1
  -------------
  1 = 0001
 ```
+```
+Dezplazamos en 1 bit
+12 = 1100>>110 
+```
 ```c++
 #include <iostream>
 using namespace std;
@@ -84,8 +88,9 @@ Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros ma
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1MzM5MjAsNjU1Mzg4MDI0LC04MD
-Y2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4
-MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC
-0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTcxOTQ5OTEwMywtMTYyMTUzMzkyMCw2NT
+UzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQx
+NDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LD
+EzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMw
+OTk4MTE2XX0=
 -->
