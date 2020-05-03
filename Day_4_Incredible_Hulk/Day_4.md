@@ -128,11 +128,35 @@ Es siguiente método es llamado: [**__builtin__ popcount(x)**](https://www.geeks
 ```c++
 
 ```
+
+
+## Solución al problema:
+Como vimos el ejercicio nos pide la minima cantidad de salto para que Hulk llegue a su objetivo, veamos por ejemplo para N = 
+```c++
+#include <iostream>
+using namespace std;
+int main(){
+    int N, T;
+    cin>> T;
+    while(T--){
+        int c = 0;
+        cin>>N;
+        while(N>0){
+            N = N & (N - 1);
+            c++;
+        }    
+        cout<<c<<endl;
+    }
+    return 0;
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzEyMDM4MSwxODU2MzA5MDQwLDEzNz
-I0OTU3OTcsLTExNTYxNjU5MzAsMTczMDExNjM5MCwtNzE5NDk5
-MTAzLC0xNjIxNTMzOTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC
-0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1
-ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNz
-Y1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNjgxMzUxMDEsMTM3NzEyMDM4MSwxOD
+U2MzA5MDQwLDEzNzI0OTU3OTcsLTExNTYxNjU5MzAsMTczMDEx
+NjM5MCwtNzE5NDk5MTAzLC0xNjIxNTMzOTIwLDY1NTM4ODAyNC
+wtODA2NjY4MDUzLC0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1
+MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4ND
+A4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZd
+fQ==
 -->
