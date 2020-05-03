@@ -94,7 +94,9 @@ n = 7 -> 0111 AND
 -----------------
 n = 0  -> 0000 El nuevo valor de N en la segunda iteracion.
 ```
-Como se puede observar solo debemos acumular la cantidad de veces que se repite esto hasta que 
+Como se puede observar solo debemos acumular la cantidad de veces que se repite esto hasta que `N = 0`
+La operacion AND que realizamos elimina de derecha a izquierda los conjuntos de bits:
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -111,9 +113,9 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NTM4MDgyLDE3MzAxMTYzOTAsLTcxOT
-Q5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1
-MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgyMCwtMT
-c1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1
-Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExNTYxNjU5MzAsMTczMDExNjM5MCwtNz
+E5NDk5MTAzLC0xNjIxNTMzOTIwLDY1NTM4ODAyNCwtODA2NjY4
+MDUzLC0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC
+0xNzU1ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3
+MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
