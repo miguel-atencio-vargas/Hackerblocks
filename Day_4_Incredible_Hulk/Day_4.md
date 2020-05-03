@@ -111,13 +111,15 @@ int main(){
 }
 ```
 
-### Analisis de complejidad
+#### Análisis de complejidad
 La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
+### Tercer Metodo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MDYwOTEzLC0xMTU2MTY1OTMwLDE3Mz
-AxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgw
-MjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC
-00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4
-ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MT
-E2XX0=
+eyJoaXN0b3J5IjpbLTE5NjQ0NjI5OTYsLTExNTYxNjU5MzAsMT
+czMDExNjM5MCwtNzE5NDk5MTAzLC0xNjIxNTMzOTIwLDY1NTM4
+ODAyNCwtODA2NjY4MDUzLC0yMTM4Mjg5MTI2LDE2NTIyNDE0MD
+csLTQ1MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQwNjQxNjYsMTMx
+OTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OT
+gxMTZdfQ==
 -->
