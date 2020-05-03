@@ -84,7 +84,12 @@ En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) =
 En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
 Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
 ### Segundo Método
-En este metodo realizaremos solo una operai
+En este metodo realizaremos solo una operacion por cada bit *encendido* (1) realizando la siguiente operacion:
+```
+n = 9 -> 1001
+n = 8 -> 0110 AND
+------------------
+```
 ```c++
 #include <iostream>
 using namespace std;
@@ -101,9 +106,9 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDcyNjEwNywxNzMwMTE2MzkwLC03MT
-k0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4MDI0LC04MDY2Njgw
-NTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLT
-E3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcw
-NTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjc1MDQ4MTgyLDE3MzAxMTYzOTAsLTcxOT
+Q5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1
+MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgyMCwtMT
+c1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1
+Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
 -->
