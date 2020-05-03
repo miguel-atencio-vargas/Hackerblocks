@@ -21,12 +21,17 @@ Líneas T de salida, que contienen el número mínimo de movimientos requeridos 
 
 #### Entrada de muestra
 > 3
+
 >3
+
 >4
+
 >5
 #### Salida de muestra
 > 2
+
 > 1
+
 > 2
 #### Explicación
 
@@ -120,10 +125,10 @@ La operación AND que realizamos elimina de derecha a izquierda los conjuntos de
 ### Tercer Método
 Es siguiente método es llamado **_builtin_popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjQ5NTc5NywtMTE1NjE2NTkzMCwxNz
-MwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4
-MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNy
-wtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5
-ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5OD
-ExNl19
+eyJoaXN0b3J5IjpbLTE3OTc5NDQzMjEsMTM3MjQ5NTc5NywtMT
+E1NjE2NTkzMCwxNzMwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1
+MzM5MjAsNjU1Mzg4MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMj
+YsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5
+NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OT
+AxMjk1LDczMDk5ODExNl19
 -->
