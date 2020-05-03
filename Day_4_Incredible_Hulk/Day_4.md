@@ -45,6 +45,7 @@ Dado un numero N, encontrar el número de bits "encendidos"(1) en la representac
 ####  Primer Método:
 Este metodo se basa en que si nosotros aplicamos la operacion de AND entre N y 1 podriamos saber que el numero al final de N es `1 o 0`  y guardamos esa operacion en nuestro contador, luego necesitamos desplazar en 1bit nuestro N y actualizar su valor: 
 ```
+Aplicamos la operacion AND:
 12 = 1100
  1 = 0001 AND
  -------------
@@ -52,7 +53,7 @@ Este metodo se basa en que si nosotros aplicamos la operacion de AND entre N y 1
 ```
 ```
 Dezplazamos en 1 bit
-12 = 1100>>110 
+12 = 1100>>1 = 6 -> El nuevo valor de N
 ```
 ```c++
 #include <iostream>
@@ -88,9 +89,9 @@ Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros ma
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTQ5OTEwMywtMTYyMTUzMzkyMCw2NT
-UzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQx
-NDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LD
-EzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMw
-OTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTczMDExNjM5MCwtNzE5NDk5MTAzLC0xNj
+IxNTMzOTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC0yMTM4Mjg5
+MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgxODc5LD
+E0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIw
+NjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
