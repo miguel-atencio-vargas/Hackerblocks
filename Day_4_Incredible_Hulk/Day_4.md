@@ -1,7 +1,7 @@
 
 # [Day 004 Incredible Hulk](https://hack.codingblocks.com/app/practice/6/1038/problem)
 
-Descripcion del problema:
+Descripción del problema:
 El planeta Tierra está bajo la amenaza de los extraterrestres del espacio exterior y el equipo de los Vengadores está ocupado luchando contra ellos. Mientras tanto, Hulk tiene que derrotar a un enemigo que está a N pasos por encima del nivel en el que está parado (asuma el nivel de Hulk como el nivel 0). Hulk, debido a su increíble capacidad de salto, puede dos niveles. Para derrotar al enemigo lo más rápido posible, tiene que alcanzar el enésimo paso con el mínimo de movimientos posibles. Ayuda a Hulk a encontrar lo mismo y contribuye a salvar a la Tierra.
 
 #### Formato de entrada 
@@ -13,8 +13,7 @@ Los siguientes casos de prueba T: La primera línea de cada caso de prueba conti
 #### Restricciones
 
 1 <= T <= 10  
-1 <= N <= 10^5
-
+1 <= N <= 10⁵
 #### Formato de salida 
 
 Líneas T de salida, que contienen el número mínimo de movimientos requeridos por Hulk para alcanzar el enésimo paso.
@@ -31,7 +30,6 @@ Líneas T de salida, que contienen el número mínimo de movimientos requeridos 
 > 2
 
 > 1
-
 > 2
 #### Explicación
 
@@ -125,10 +123,10 @@ La operación AND que realizamos elimina de derecha a izquierda los conjuntos de
 ### Tercer Método
 Es siguiente método es llamado **_builtin_popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc5NDQzMjEsMTM3MjQ5NTc5NywtMT
-E1NjE2NTkzMCwxNzMwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1
-MzM5MjAsNjU1Mzg4MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMj
-YsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5
-NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OT
-AxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzk1MDcwOTA5LDEzNzI0OTU3OTcsLTExNT
+YxNjU5MzAsMTczMDExNjM5MCwtNzE5NDk5MTAzLC0xNjIxNTMz
+OTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC0yMTM4Mjg5MTI2LD
+E2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQw
+NjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMT
+I5NSw3MzA5OTgxMTZdfQ==
 -->
