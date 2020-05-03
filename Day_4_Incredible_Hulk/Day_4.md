@@ -87,8 +87,12 @@ Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros ma
 En este metodo realizaremos solo una operacion por cada bit *encendido* (1) realizando la siguiente operacion:
 ```
 n = 9 -> 1001
-n = 8 -> 0110 AND
-------------------
+n = 8 -> 1000 AND
+-----------------
+n = 8 -> 1000
+n = 7 -> 0111 AND
+-----------------
+n =   -> 0000
 ```
 ```c++
 #include <iostream>
@@ -106,9 +110,9 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MDQ4MTgyLDE3MzAxMTYzOTAsLTcxOT
-Q5OTEwMywtMTYyMTUzMzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1
-MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgyMCwtMT
-c1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1
-Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTIyMjcwNzc2NywxNzMwMTE2MzkwLC03MT
+k0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4MDI0LC04MDY2Njgw
+NTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLT
+E3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcw
+NTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
 -->
