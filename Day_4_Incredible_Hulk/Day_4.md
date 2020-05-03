@@ -42,7 +42,7 @@ Un ejemplo de su utilidad es:
 
 Dado un numero N, encontrar el número de bits "encendidos"(1) en la representación binaria del mismo:
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)
-####  Primer 
+####  Primer Método:
 ```c++
 #include <iostream>
 using namespace std;
@@ -58,11 +58,13 @@ int main(){
     // Para n=15: Cantidad de 1's es: 4
     return 0;
 }
-
 ```
+###
+#### Segundo Método
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTE2NzUwMywxNjUyMjQxNDA3LC00NT
-AxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQw
-ODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTE3MjE0MTI1OTMsMTY1MjI0MTQwNywtND
+UwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0
+MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl
+19
 -->
