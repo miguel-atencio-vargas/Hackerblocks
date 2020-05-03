@@ -61,13 +61,15 @@ int main(){
 ```
 #### Analisis de la complejidad:
 
- 1. Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log(n))` bits. 
+Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log(n))` en la practica seria: `log(n) +1` bits. 
+
+Por ejemplo para n = 15
 
 ### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDg4Mzk1MywtMjEzODI4OTEyNiwxNj
-UyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0
-MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOT
-UsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE3MTg0NzUxOTAsLTIxMzgyODkxMjYsMT
+Y1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2
+NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMj
+k1LDczMDk5ODExNl19
 -->
