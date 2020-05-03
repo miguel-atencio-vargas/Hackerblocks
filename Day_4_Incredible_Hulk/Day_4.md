@@ -84,14 +84,26 @@ En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) =
 En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
 Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
 ### Segundo Método
-
+En este metodo realizaremos solo una operai
 ```c++
-
+#include <iostream>
+using namespace std;
+int main(){
+    int N;
+    int c = 0;
+    scanf("%d", &N);
+    while(N>0){
+        N = N & (N - 1);
+        c++;
+    }    
+    printf("Cantidad de 1's es: %d\n", c);
+    return 0;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDExNjM5MCwtNzE5NDk5MTAzLC0xNj
-IxNTMzOTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC0yMTM4Mjg5
-MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgxODc5LD
-E0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIw
-NjkwMTI5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUyMDcyNjEwNywxNzMwMTE2MzkwLC03MT
+k0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4MDI0LC04MDY2Njgw
+NTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLT
+E3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcw
+NTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
 -->
