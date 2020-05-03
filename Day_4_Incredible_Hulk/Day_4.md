@@ -43,9 +43,11 @@ Un ejemplo de su utilidad es:
 Dado un numero N, encontrar el número de bits "encendidos"(1) en la representación binaria del mismo:
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)
 
+```c++
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDE4ODIwLC0xNzU1ODgxODc5LDE0OT
-QwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIwNjkw
-MTI5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NT
+U4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3
+NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
 -->
