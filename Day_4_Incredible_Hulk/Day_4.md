@@ -63,13 +63,13 @@ int main(){
 
 Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log(n))` en la practica seria: `log(n) +1` bits. 
 
-Por ejemplo para n = 15
+Por ejemplo para n = 15: `ceil(log(15)) = 3 + 1 = 4 ` iteraciones.
 
 ### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg0NzUxOTAsLTIxMzgyODkxMjYsMT
-Y1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2
-NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMj
-k1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTI4MjQzMzEwLC0yMTM4Mjg5MTI2LDE2NT
+IyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQwNjQx
+NjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMTI5NS
+w3MzA5OTgxMTZdfQ==
 -->
