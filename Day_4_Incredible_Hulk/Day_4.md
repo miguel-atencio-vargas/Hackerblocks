@@ -17,7 +17,19 @@ Los siguientes casos de prueba T: La primera línea de cada caso de prueba conti
 
 #### Formato de salida 
 
-Líneas T de salida, que contienen el número mínimo de movimientos requeridos por Hulk para alcanzar el enésimo paso Entrada de muestra
+Líneas T de salida, que contienen el número mínimo de movimientos requeridos por Hulk para alcanzar el enésimo paso.
+
+#### Entrada de muestra
+> 3
+3
+4
+5
+#### Salida de muestra
+> 2
+1
+2
+#### Exp
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDI2OTYxNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTcxOTA4MzkzMSw3MzA5OTgxMTZdfQ==
 -->
