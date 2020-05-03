@@ -42,12 +42,27 @@ Un ejemplo de su utilidad es:
 
 Dado un numero N, encontrar el número de bits "encendidos"(1) en la representación binaria del mismo:
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/setbit.png)
-
+####  Primer 
 ```c++
+#include <iostream>
+using namespace std;
+int main(){
+    int N;
+    int c = 0;
+    scanf("%d", &N);
+    while(N>0){
+        c += (N&1); // bitwise operation
+        N = N>>1;   // bitwise operation 
+    }    
+    printf("Cantidad de 1's es: %d\n", c);
+    // Para n=15: Cantidad de 1's es: 4
+    return 0;
+}
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NT
-U4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3
-NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTYwOTE2NzUwMywxNjUyMjQxNDA3LC00NT
+AxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQw
+ODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX
+0=
 -->
