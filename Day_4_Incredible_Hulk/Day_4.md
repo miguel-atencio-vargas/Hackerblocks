@@ -35,9 +35,9 @@ Deje que los pasos totales sean n, encuentre el número entero más cercano que 
 
 
 ### Enfoque del problema
-Para poder solucionar este ejercicio se utilizara un enfoqu
+Para poder solucionar este ejercicio se utilizara un enfoque de 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NTIxNjk4LC0xNTcwNTM3NjU2LC0xMj
-A2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2ODk4NTIwODYsLTE1NzA1Mzc2NTYsLT
+EyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
 -->
