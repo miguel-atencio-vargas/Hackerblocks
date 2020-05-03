@@ -131,7 +131,7 @@ Es siguiente método es llamado: [**__builtin__ popcount(x)**](https://www.geeks
 
 
 ## Solución al problema:
-Como vimos el ejercicio nos pide la minima cantidad de salto para que Hulk llegue a su objetivo, veamos por ejemplo para N = 13 su representacion binaria es: `1101` del mismo podemos ver que existen 3 conjuntos: `1, 101, 1101` cada 
+Como vimos el ejercicio nos pide la mínima cantidad de salto para que Hulk llegue a su objetivo, veamos por ejemplo para N = 13 su representación binaria es: `1101` del mismo podemos ver que existen 3 conjuntos: `1, 101, 1101` cada `1` representa una potencia de `2` es decir `2⁰, 2¹, 2², 2³, 2⁴.....`
 ```c++
 #include <iostream>
 using namespace std;
@@ -152,11 +152,11 @@ int main(){
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTEzMTQ1MCwxMzc3MTIwMzgxLDE4NT
-YzMDkwNDAsMTM3MjQ5NTc5NywtMTE1NjE2NTkzMCwxNzMwMTE2
-MzkwLC03MTk0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4MDI0LC
-04MDY2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNywtNDUw
-MTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0MD
-g4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTE3NzM3NTIyNzksMTM3NzEyMDM4MSwxOD
+U2MzA5MDQwLDEzNzI0OTU3OTcsLTExNTYxNjU5MzAsMTczMDEx
+NjM5MCwtNzE5NDk5MTAzLC0xNjIxNTMzOTIwLDY1NTM4ODAyNC
+wtODA2NjY4MDUzLC0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1
+MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4ND
+A4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZd
+fQ==
 -->
