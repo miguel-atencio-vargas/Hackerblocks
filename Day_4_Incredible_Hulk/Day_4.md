@@ -114,9 +114,9 @@ int main(){
 #### Análisis de complejidad
 La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
 ### Tercer Método
-Es siguiente metodo es llamado __buildtin_popcount
+Es siguiente método es llamado **_builtin_popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzM2MDQ0MSwtMTE1NjE2NTkzMCwxNz
+eyJoaXN0b3J5IjpbMTIwMTA4NjMyNSwtMTE1NjE2NTkzMCwxNz
 MwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4
 MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNy
 wtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5
