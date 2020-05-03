@@ -35,7 +35,7 @@ Deje que los pasos totales sean n, encuentre el número entero más cercano que 
 
 
 ### Enfoque del problema
-Para poder solucionar este ejercicio se utilizara un enfoque de **Operar a nivel de bits Bitwise**. 
+Para poder solucionar este ejercicio se utilizará un enfoque de **Operar a nivel de bits Bitwise**. 
 ![Geekforgeeks](https://www.geeksforgeeks.org/wp-content/uploads/Operators-In-C.png)
 ##### Count set bits in an integer
 Un ejemplo de su utilidad es:
@@ -75,8 +75,8 @@ Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros ma
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1Mzg4MDI0LC04MDY2NjgwNTMsLTIxMz
-gyODkxMjYsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4
-NzksMTQ5NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC
-0xMjA2OTAxMjk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjEwNzIyNzM4NCw2NTUzODgwMjQsLTgwNj
+Y2ODA1MywtMjEzODI4OTEyNiwxNjUyMjQxNDA3LC00NTAxODgy
+MCwtMTc1NTg4MTg3OSwxNDk0MDY0MTY2LDEzMTk4ODQwODgsLT
+E1NzA1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
 -->
