@@ -35,9 +35,10 @@ Deje que los pasos totales sean n, encuentre el número entero más cercano que 
 
 
 ### Enfoque del problema
-Para poder solucionar este ejercicio se utilizara un enfoque de **Operar a nivel de bits**. Para ello trataremos de encontrar el numero de conjuntos de bits:
-
+Para poder solucionar este ejercicio se utilizara un enfoque de **Operar a nivel de bits**. 
+![Geekforge](https://www.geeksforgeeks.org/wp-content/uploads/Operators-In-C.png)
+Para ello trataremos de encontrar el numero de conjuntos de bits:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyNTY2NTA0LDEzMTk4ODQwODgsLTE1Nz
-A1Mzc2NTYsLTEyMDY5MDEyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNjg0NDI0NzIsMTMxOTg4NDA4OCwtMT
+U3MDUzNzY1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
