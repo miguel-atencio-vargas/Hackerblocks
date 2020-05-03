@@ -2,7 +2,7 @@
 # [Day 004 Incredible Hulk](https://hack.codingblocks.com/app/practice/6/1038/problem)
 
 Descripción del problema:
-El planeta Tierra está bajo la amenaza de los extraterrestres del espacio exterior y el equipo de los Vengadores está ocupado luchando contra ellos. Mientras tanto, Hulk tiene que derrotar a un enemigo que está a N pasos por encima del nivel en el que está parado (asuma el nivel de Hulk como el nivel 0). Hulk, debido a su increíble capacidad de salto, puede dos niveles. Para derrotar al enemigo lo más rápido posible, tiene que alcanzar el enésimo paso con el mínimo de movimientos posibles. Ayuda a Hulk a encontrar lo mismo y contribuye a salvar a la Tierra.
+El planeta Tierra está bajo la amenaza de los extraterrestres del espacio exterior y el equipo de los Vengadores está ocupado luchando contra ellos. Mientras tanto, Hulk tiene que derrotar a un enemigo que está a N pasos por encima del nivel en el que está parado (asuma el nivel de Hulk como el nivel 0). Hulk, debido a su increíble capacidad de salto, puede saltar en **potencias de dos**. Para derrotar al enemigo lo más rápido posible, tiene que alcanzar el enésimo paso con el mínimo de movimientos posibles. Ayuda a Hulk a encontrar lo mismo y contribuye a salvar a la Tierra.
 
 #### Formato de entrada 
 
@@ -129,10 +129,10 @@ Es siguiente método es llamado: [**__builtin__ popcount(x)**](https://www.geeks
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjMwOTA0MCwxMzcyNDk1Nzk3LC0xMT
-U2MTY1OTMwLDE3MzAxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUz
-MzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNi
-wxNjUyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0
-MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MD
-EyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM3NzEyMDM4MSwxODU2MzA5MDQwLDEzNz
+I0OTU3OTcsLTExNTYxNjU5MzAsMTczMDExNjM5MCwtNzE5NDk5
+MTAzLC0xNjIxNTMzOTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC
+0yMTM4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1
+ODgxODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNz
+Y1NiwtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
