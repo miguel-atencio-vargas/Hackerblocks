@@ -80,13 +80,15 @@ int main(){
 Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log2(n))` en la practica seria: `log2(n) +1` bits.  
 > La razón de por que es logaritmo de base 2 de N es porque los binarios son potencias de 2.
 
-Por ejemplo para n = 7: ` log2(7) = 2 + 1 = 3`  iteraciones.
+Por ejemplo: 
 
-Por ejemplo para n = 8: ` log2(8) = 3 + 1 = 4`  iteraciones.
+Para n = 7: `log2(7) = 2 + 1 = 3`  iteraciones.
 
-Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4`  iteraciones.
+Para n = 8: `log2(8) = 3 + 1 = 4`  iteraciones.
 
-Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 `  iteraciones.
+Para n = 15: `log2(15) = 3 + 1 = 4`  iteraciones.
+
+Para n = 16: `log2(16) = 4 + 1 = 5 `  iteraciones.
 
 En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) = 30` iteraciones.
 En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
@@ -122,12 +124,12 @@ int main(){
 
 La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
 ### Tercer Método
-Es siguiente método es llamado **_builtin_popcount()**
+Es siguiente método es llamado **__builtin__ popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjAxMDk0NywxMzcyNDk1Nzk3LC0xMT
-U2MTY1OTMwLDE3MzAxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUz
-MzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNi
-wxNjUyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0
-MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MD
-EyOTUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExNjAwOTYwODgsMTM3MjQ5NTc5NywtMT
+E1NjE2NTkzMCwxNzMwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1
+MzM5MjAsNjU1Mzg4MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMj
+YsMTY1MjI0MTQwNywtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5
+NDA2NDE2NiwxMzE5ODg0MDg4LC0xNTcwNTM3NjU2LC0xMjA2OT
+AxMjk1LDczMDk5ODExNl19
 -->
