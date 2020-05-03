@@ -59,11 +59,14 @@ int main(){
     return 0;
 }
 ```
-###
-#### Segundo Método
+#### Analisis de la complejidad:
+
+ 1. Segun el primer digito de la izquierda: `enter code here`
+
+### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE0MTI1OTMsMTY1MjI0MTQwNywtND
+eyJoaXN0b3J5IjpbLTE3Mjk4MTc5NTMsMTY1MjI0MTQwNywtND
 UwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5ODg0
 MDg4LC0xNTcwNTM3NjU2LC0xMjA2OTAxMjk1LDczMDk5ODExNl
 19
