@@ -69,12 +69,12 @@ Por ejemplo para n = 8: `log2(8) = 3 + 1 = 4   ` iteraciones.
 Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
 Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
 
-
+Esto a pesar de ser bastante optimo frente a un *Naive approach* 
 ### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNj
-UyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0
-MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOT
-UsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTQzNzcxNzUwNiwtODA2NjY4MDUzLC0yMT
+M4Mjg5MTI2LDE2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgx
+ODc5LDE0OTQwNjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1Ni
+wtMTIwNjkwMTI5NSw3MzA5OTgxMTZdfQ==
 -->
