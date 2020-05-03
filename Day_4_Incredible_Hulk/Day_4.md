@@ -61,7 +61,8 @@ int main(){
 ```
 #### Analisis de la complejidad:
 
-Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log2(n))` en la practica seria: `log2(n) +1` bits. 
+Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log2(n))` en la practica seria: `log2(n) +1` bits.  
+> La razón de por que es logaritmo de base 2 de N es porque los binarios son potencias de 2.
 
 Por ejemplo para n = 7: `log2(7) = 2 + 1 = 3   ` iteraciones.
 Por ejemplo para n = 8: `log2(8) = 3 + 1 = 4   ` iteraciones.
@@ -72,7 +73,7 @@ Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
 ### Segundo Método
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Njc0MjU2OCwtMjEzODI4OTEyNiwxNj
+eyJoaXN0b3J5IjpbLTgwNjY2ODA1MywtMjEzODI4OTEyNiwxNj
 UyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0MDY0
 MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MDEyOT
 UsNzMwOTk4MTE2XX0=
