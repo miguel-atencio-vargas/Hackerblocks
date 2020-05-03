@@ -77,9 +77,13 @@ Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos q
 > La razón de por que es logaritmo de base 2 de N es porque los binarios son potencias de 2.
 
 Por ejemplo para n = 7: ` log2(7) = 2 + 1 = 3  ` iteraciones.
+
 Por ejemplo para n = 8: ` log2(8) = 3 + 1 = 4  ` iteraciones.
+
 Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
+
 Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
+
 En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) = 30` iteraciones.
 En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
 Esto a pesar de ser bastante optimo frente a un *Naive approach* para numeros mas grandes puede llegar a ser algo lento.
@@ -110,13 +114,13 @@ int main(){
     return 0;
 }
 ```
-
 #### Análisis de complejidad
+
 La operación AND que realizamos elimina de derecha a izquierda los conjuntos de bits, por lo tanto la complejidad de este algoritmo es: `O(numero de conjunto de bits)` 
 ### Tercer Método
 Es siguiente método es llamado **_builtin_popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTA4NjMyNSwtMTE1NjE2NTkzMCwxNz
+eyJoaXN0b3J5IjpbMTM3MjQ5NTc5NywtMTE1NjE2NTkzMCwxNz
 MwMTE2MzkwLC03MTk0OTkxMDMsLTE2MjE1MzM5MjAsNjU1Mzg4
 MDI0LC04MDY2NjgwNTMsLTIxMzgyODkxMjYsMTY1MjI0MTQwNy
 wtNDUwMTg4MjAsLTE3NTU4ODE4NzksMTQ5NDA2NDE2NiwxMzE5
