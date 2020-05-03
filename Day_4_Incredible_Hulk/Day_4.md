@@ -30,6 +30,7 @@ Líneas T de salida, que contienen el número mínimo de movimientos requeridos 
 > 2
 
 > 1
+
 > 2
 #### Explicación
 
@@ -79,13 +80,13 @@ int main(){
 Según el primer dígito de la izquierda, por ejemplo:  `16 = 10000` tendremos que iterar hasta que el numero binario se convierta en `0` seria 5 veces. Entonces dado N tendríamos que iterar máximo `O(log2(n))` en la practica seria: `log2(n) +1` bits.  
 > La razón de por que es logaritmo de base 2 de N es porque los binarios son potencias de 2.
 
-Por ejemplo para n = 7: ` log2(7) = 2 + 1 = 3  ` iteraciones.
+Por ejemplo para n = 7: ` log2(7) = 2 + 1 = 3`  iteraciones.
 
-Por ejemplo para n = 8: ` log2(8) = 3 + 1 = 4  ` iteraciones.
+Por ejemplo para n = 8: ` log2(8) = 3 + 1 = 4`  iteraciones.
 
-Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4 ` iteraciones.
+Por ejemplo para n = 15: `log2(15) = 3 + 1 = 4`  iteraciones.
 
-Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 ` iteraciones.
+Por ejemplo para n = 16: `log2(16) = 4 + 1 = 5 `  iteraciones.
 
 En c++ un `int` puede llegar a tener 2 · 10⁹ entonces seria `log2(2·10⁹) = 30` iteraciones.
 En c++ un `long long` puede llegar a tener 9 · 10¹⁸ entonces seria `log2(9·10¹⁸) = 62` iteraciones.
@@ -123,10 +124,10 @@ La operación AND que realizamos elimina de derecha a izquierda los conjuntos de
 ### Tercer Método
 Es siguiente método es llamado **_builtin_popcount()**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MDcwOTA5LDEzNzI0OTU3OTcsLTExNT
-YxNjU5MzAsMTczMDExNjM5MCwtNzE5NDk5MTAzLC0xNjIxNTMz
-OTIwLDY1NTM4ODAyNCwtODA2NjY4MDUzLC0yMTM4Mjg5MTI2LD
-E2NTIyNDE0MDcsLTQ1MDE4ODIwLC0xNzU1ODgxODc5LDE0OTQw
-NjQxNjYsMTMxOTg4NDA4OCwtMTU3MDUzNzY1NiwtMTIwNjkwMT
-I5NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTkxMjAxMDk0NywxMzcyNDk1Nzk3LC0xMT
+U2MTY1OTMwLDE3MzAxMTYzOTAsLTcxOTQ5OTEwMywtMTYyMTUz
+MzkyMCw2NTUzODgwMjQsLTgwNjY2ODA1MywtMjEzODI4OTEyNi
+wxNjUyMjQxNDA3LC00NTAxODgyMCwtMTc1NTg4MTg3OSwxNDk0
+MDY0MTY2LDEzMTk4ODQwODgsLTE1NzA1Mzc2NTYsLTEyMDY5MD
+EyOTUsNzMwOTk4MTE2XX0=
 -->
