@@ -81,6 +81,7 @@ El mcm o LCM es el múltiplo común de todos ellos (o el ínfimo del conjunto de
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/1130c12dc1f0223f78054b258ff24746780a8884)
 
 Tomando los factores con su mayor exponente, tenemos que:
+
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/295754bdd6d31ff598085741aa1dd8d34456b5a6)
 
 Conociendo el máximo común divisor Máximo Común Divisor de dos números, se puede calcular el mínimo común múltiplo de ellos, que será el producto de ambos dividido entre su máximo común divisor.
@@ -88,7 +89,7 @@ Conociendo el máximo común divisor Máximo Común Divisor de dos números, se 
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTU0MzA3NywxMTg1MzQxOTY0LDE5MD
+eyJoaXN0b3J5IjpbMTc0OTAzNzQ4NSwxMTg1MzQxOTY0LDE5MD
 k3MTg1MjYsMTE3NjAwNDIzMCwxMTg0NTI4NTY3LDE2ODY3NDE0
 ODEsOTMyNjEyNTU4LDc4MDA3NTQ0NywtMTQ5MjMzMTAxOCwtMT
 Q2NjMxMjY0MSwxODUwNzkzNDkxLC0xMTUxMDUzNDM3LC05ODI4
