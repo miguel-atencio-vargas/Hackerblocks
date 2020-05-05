@@ -48,19 +48,19 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
  Este algoritmo se basa en dos reglas principales:
  
 
-1. `MCD(a,b) = MCD(b, a%b)`
-2. `MCD(a,0) = a`
+1. `MCD(a,b) = MCD(b, a%b) // Caso recursivo`
+2. `MCD(a,0) = a 		  // Caso base`
 
 En la primera regla nos dice que operemos recursivamente hasta que `b==0` 
 Y la segunda nos dice que cuando `b==0` hemos encontrado la respuesta.
 Por ejemplo para 12, 20:
 ![GDC DEMOSTRATION](https://i.imgur.com/g1MxzIu.jpg)
 
-Cuando nos planteamos algoritmos recursivos es muy util verlo como una `Pila de llamadas o Call Stack` a continuacion veremos como se desarrollaria para el mismo ejemplo:
+Cuando nos planteamos algoritmos recursivos es muy util verlo como una `Pila de llamadas o Call Stack` a continuacion veremos como se desarrollaría para el mismo ejemplo:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNjEyNTU4LDc4MDA3NTQ0NywtMTQ5Mj
-MzMTAxOCwtMTQ2NjMxMjY0MSwxODUwNzkzNDkxLC0xMTUxMDUz
-NDM3LC05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4MTAzNzg1XX
-0=
+eyJoaXN0b3J5IjpbMTY4Njc0MTQ4MSw5MzI2MTI1NTgsNzgwMD
+c1NDQ3LC0xNDkyMzMxMDE4LC0xNDY2MzEyNjQxLDE4NTA3OTM0
+OTEsLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1MDc1LD
+IwNzgxMDM3ODVdfQ==
 -->
