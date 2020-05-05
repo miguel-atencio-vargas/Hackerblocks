@@ -53,9 +53,12 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
 
 En la primera regla nos dice que operemos recursivamente hasta que `b==0` 
 Y la segunda nos dice que cuando `b==0` hemos encontrado la respuesta.
+Por ejemplo para 12, 20:
+![GDC DEMOSTRATION](https://i.imgur.com/g1MxzIu.jpg)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIzMzEwMTgsLTE0NjYzMTI2NDEsMT
-g1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3
-MDUwNzUsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbNzgwMDc1NDQ3LC0xNDkyMzMxMDE4LC0xND
+Y2MzEyNjQxLDE4NTA3OTM0OTEsLTExNTEwNTM0MzcsLTk4Mjgw
+MzA4MSwxMjgxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
 -->
