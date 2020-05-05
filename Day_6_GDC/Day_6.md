@@ -1,6 +1,6 @@
 
 
-# [Day 6 - Euclid's Algorithm for GCD Maximo Comun Divisor | HCF Maximo Factor Comun & LCM](https://online.codingblocks.com/app/player/92078/content/80922/7751)
+# [Day 6 - Euclid's Algorithm for GCD Maximo Comun Divisor | HCF Maximo Factor Comun & LCM ](https://online.codingblocks.com/app/player/92078/content/80922/7751)
 
 Tome lo siguiente como entrada. 
 
@@ -63,9 +63,9 @@ Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTcxODUyNiwxMTc2MDA0MjMwLDExOD
-Q1Mjg1NjcsMTY4Njc0MTQ4MSw5MzI2MTI1NTgsNzgwMDc1NDQ3
-LC0xNDkyMzMxMDE4LC0xNDY2MzEyNjQxLDE4NTA3OTM0OTEsLT
-ExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1MDc1LDIwNzgx
-MDM3ODVdfQ==
+eyJoaXN0b3J5IjpbMTE4NTM0MTk2NCwxOTA5NzE4NTI2LDExNz
+YwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQxNDgxLDkzMjYxMjU1
+OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLTE0NjYzMTI2NDEsMT
+g1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3
+MDUwNzUsMjA3ODEwMzc4NV19
 -->
