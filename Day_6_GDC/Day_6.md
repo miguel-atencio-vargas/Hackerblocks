@@ -45,9 +45,14 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
 > La idea detrás es encontrar el número más grande que los divide a ambos.
 ## Algoritmo Euclidiano
 
+ Este algoritmo se basa en dos reglas principales:
  
+
+1.     MCD(a,b) = MCD(b, a%b)` 
+2. `MCD(a,0) = a`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMT
-E1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3MDUwNzUsMjA3ODEw
-Mzc4NV19
+eyJoaXN0b3J5IjpbOTE5NzY3MzE5LC0xNDY2MzEyNjQxLDE4NT
+A3OTM0OTEsLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1
+MDc1LDIwNzgxMDM3ODVdfQ==
 -->
