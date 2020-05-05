@@ -32,6 +32,7 @@ Partamos de lo mas basico, un **divisor** es el conjunto de numeros por el cual 
 | 6 | 1x6 | 2x3|||1, 2, 3, 6
 | 18 | 1x18 |2x9|3x6||1, 2, 3, 6, 18
 |12|1x12|2x6|3x4||1, 2, 3, 4, 6, 12
+
 Como se puede observar cada numero tiene un conjunto de divisores(que son divisibles por el numero). De aquí podemos extraer intuitivamente de que significa el Maximo Comun Divisor ya que si por ejemplo quiero el MCD de 15, 20 solo tengo que multiplicar los *Divisores comunes de tiene cada numero:*
 
     MCD(15,20) = MAX(1, 5) = 5
@@ -60,8 +61,9 @@ Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de
 ![enter image description here](https://imgur.com/gallery/XMKC3Yb)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjAwNDIzMCwxMTg0NTI4NTY3LDE2OD
-Y3NDE0ODEsOTMyNjEyNTU4LDc4MDA3NTQ0NywtMTQ5MjMzMTAx
-OCwtMTQ2NjMxMjY0MSwxODUwNzkzNDkxLC0xMTUxMDUzNDM3LC
-05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbLTE3MDIwOTgwNjAsMTE3NjAwNDIzMCwxMT
+g0NTI4NTY3LDE2ODY3NDE0ODEsOTMyNjEyNTU4LDc4MDA3NTQ0
+NywtMTQ5MjMzMTAxOCwtMTQ2NjMxMjY0MSwxODUwNzkzNDkxLC
+0xMTUxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4
+MTAzNzg1XX0=
 -->
