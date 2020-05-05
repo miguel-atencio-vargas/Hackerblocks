@@ -25,21 +25,15 @@ Dos enteros separados por una nueva línea.
 > 8
 ## Analisis de del ejercicio
 Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cual es divisble un numero. Ej: 
-|15| 20 |6|18|Divisores
-|--|--|--|--|--|
-| 1 x 15| 1x20 |1x6 |1x18|**1, 15,**
-|3 x 5|2x10|2x3|2x9
-|	   |4x5||3x6
-
 |N°|  |||Divisores
 |--|--|--|--|--|
 | 15 |1x15  |3x5||1,3,5,15
-| 20 | 1x20 | 2x10|4x5|1,2,4,5,10,
-| 6 | 1x6 | 2x3
-| 18 | 1x18 |2x9|3x6
+| 20 | 1x20 | 2x10|4x5|1,2,4,5,10,20
+| 6 | 1x6 | 2x3||1,2,3,6
+| 18 | 1x18 |2x9|3x6|1,2,3,6,18
 
-Como se puede observar cada numero tiene un con
+Como se puede observar cada numero tiene un conjunto de divisores(que son divisibles por el numero)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjcwNTY5NiwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbLTE3MjQ3Mzk5NjQsMjA3ODEwMzc4NV19
 -->
