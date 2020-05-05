@@ -51,10 +51,11 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
 1. `MCD(a,b) = MCD(b, a%b)`
 2. `MCD(a,0) = a`
 
-En la primera regla nos cice que ir recursivamente hasta que `b==0` 
+En la primera regla nos dice que operemos recursivamente hasta que `b==0` 
+Y la segunda nos dice que cuando `b==0` hemos encontrado la respuesta.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDQ2Mzk5MywtMTQ2NjMxMjY0MSwxOD
-UwNzkzNDkxLC0xMTUxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcw
-NTA3NSwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbLTE0OTIzMzEwMTgsLTE0NjYzMTI2NDEsMT
+g1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3
+MDUwNzUsMjA3ODEwMzc4NV19
 -->
