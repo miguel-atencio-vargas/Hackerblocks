@@ -60,12 +60,29 @@ Por ejemplo para 12, 20:
 
 Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de llamadas o Call Stack` a continuación veremos como se desarrollaría para el mismo ejemplo:
 ![Call Stack](https://i.imgur.com/PcEiVVF.png)
+Con todo esto podemos plantear el siguiente codigo:
+```c++
+#include <bits/stdc++.h> 
+using namespace std; 
+int gcd(int a, int b) {
+    if (b == 0)
+        return a;
+    return gcd(b, a%b); 
+} 
+int main(){ 
+    int a, b;
+    cin>>a>>b;
+    cout<<gcd(a,b)<<endl;
+    return 0; 
+} 
+```
+## Minimo
 
-
+![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTM0MTk2NCwxOTA5NzE4NTI2LDExNz
-YwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQxNDgxLDkzMjYxMjU1
-OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLTE0NjYzMTI2NDEsMT
-g1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3
-MDUwNzUsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbLTE5MDUyODM4MTcsMTE4NTM0MTk2NCwxOT
+A5NzE4NTI2LDExNzYwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQx
+NDgxLDkzMjYxMjU1OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLT
+E0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgy
+ODAzMDgxLDEyODE3MDUwNzUsMjA3ODEwMzc4NV19
 -->
