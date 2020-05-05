@@ -77,16 +77,19 @@ int main(){
 ```
 ## Minimo Comun Multiplo
 El mcm o LCM es el múltiplo común de todos ellos (o el ínfimo del conjunto de los múltiplos comunes). Partiendo de dos o más números y por descomposición en factores, expresados como producto de factores primos, su mínimo común múltiplo será el resultado de multiplicar todos los factores comunes y no comunes elevados a la mayor potencia, por ejemplo el mcm de 72 y 50 será:
-![{\displaystyle {\begin{array}{r|l}72&2\\36&2\\18&2\\9&3\\3&3\\1&\end{array}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1bad3a73c95c4a7ad1c8c29fd05ceb78b414cc3a)     ![{\displaystyle {\begin{array}{r|l}50&2\\25&5\\5&5\\1&\end{array}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1130c12dc1f0223f78054b258ff24746780a8884)
+     ![{\displaystyle {\begin{array}{r|l}50&2\\25&5\\5&5\\1&\end{array}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1130c12dc1f0223f78054b258ff24746780a8884)
 
 Tomando los factores con su mayor exponente, tenemos que:
 
 ![{\displaystyle \operatorname {mcm} (72,50)=2^{3}\cdot 3^{2}\cdot 5^{2}=1800}](https://wikimedia.org/api/rest_v1/media/math/render/svg/295754bdd6d31ff598085741aa1dd8d34456b5a6)
+
+Conociendo el máximo común divisor Máximo Común Divisor de dos números, se puede calcular el mínimo común múltiplo de ellos, que será el producto de ambos dividido entre su máximo común divisor.
+
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjUyNTMyLDExODUzNDE5NjQsMTkwOT
-cxODUyNiwxMTc2MDA0MjMwLDExODQ1Mjg1NjcsMTY4Njc0MTQ4
-MSw5MzI2MTI1NTgsNzgwMDc1NDQ3LC0xNDkyMzMxMDE4LC0xND
-Y2MzEyNjQxLDE4NTA3OTM0OTEsLTExNTEwNTM0MzcsLTk4Mjgw
-MzA4MSwxMjgxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbLTE0NjA1MDk2MzYsMTE4NTM0MTk2NCwxOT
+A5NzE4NTI2LDExNzYwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQx
+NDgxLDkzMjYxMjU1OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLT
+E0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgy
+ODAzMDgxLDEyODE3MDUwNzUsMjA3ODEwMzc4NV19
 -->
