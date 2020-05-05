@@ -23,8 +23,8 @@ Dos enteros separados por una nueva línea.
 > 24 
 ### Salida de muestra 
 > 8
-## Analisis de del ejercicio
-Partamos de lo mas basico, un **divisor** es el conjunto de numeros por el cual es divisble un numero. Ej: 
+## Análisis de del ejercicio
+Partamos de lo mas básico, un **divisor** es el conjunto de números por el cual es divisible un número. Ej: 
 |N°|  ||||Divisores
 |--|--|--|--|--|--|
 | 15 |1x15 | |3x5||1, 3, 5, 15
@@ -45,9 +45,7 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
    
 > La idea detrás es encontrar el número más grande que los divide a ambos.
 ## Algoritmo Euclidiano
-
  Este algoritmo se basa en dos reglas principales:
- 
 
 1. `MCD(a,b) = MCD(b, a%b) // Caso recursivo`
 2. `MCD(a,0) = a 		  // Caso base`
@@ -60,7 +58,8 @@ Por ejemplo para 12, 20:
 
 Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de llamadas o Call Stack` a continuación veremos como se desarrollaría para el mismo ejemplo:
 ![Call Stack](https://i.imgur.com/PcEiVVF.png)
-Con todo esto podemos plantear el siguiente codigo:
+
+Con todo esto podemos plantear el siguiente código:
 ```c++
 #include <bits/stdc++.h> 
 using namespace std; 
@@ -77,10 +76,10 @@ int main(){
 } 
 ```
 ## Minimo Comun Multiplo
-El mcm o
+El mcm o de dos o LCM más  común de todos ellos (o el ínfimo del conjunto de los múltiplos comunes).
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU1MDAyNTAsMTE4NTM0MTk2NCwxOT
+eyJoaXN0b3J5IjpbLTE2OTQ0NzAyMzUsMTE4NTM0MTk2NCwxOT
 A5NzE4NTI2LDExNzYwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQx
 NDgxLDkzMjYxMjU1OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLT
 E0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgy
