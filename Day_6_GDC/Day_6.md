@@ -36,12 +36,12 @@ Como se puede observar cada numero tiene un conjunto de divisores(que son divisi
 
     MCD(15,20) = 1 * 5 = 5
    
-Esta forma seria la mas larga de obtener el MCD pero tambien podemos aplicar bajo la misma idea con los **factores primos** solo que ahora en ves de considerar a todos los elementos solo consideramos a los numeros primos:
+Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar bajo la misma idea con los **factores primos** solo que ahora en ves de considerar a todos los elementos solo consideramos a los números primos:
 
     MCD(18,12) = 2 * 3 = 6
    
-
+> La idea detrás es encontrar un número que sea divisible por ambos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEyNDI1OTYsLTk4MjgwMzA4MSwxMj
-gxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbLTEyMDEyNDk1OCwtOTgyODAzMDgxLDEyOD
+E3MDUwNzUsMjA3ODEwMzc4NV19
 -->
