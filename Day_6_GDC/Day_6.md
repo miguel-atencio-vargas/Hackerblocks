@@ -1,6 +1,6 @@
 
 
-# [Day 6 - Euclid's Algorithm for GCD | HCF & LCM](https://online.codingblocks.com/app/player/92078/content/80922/7751)
+# [Day 6 - Euclid's Algorithm for GCD Maximo Comun Divisor | HCF Maximo Factor Comun & LCM](https://online.codingblocks.com/app/player/92078/content/80922/7751)
 
 Tome lo siguiente como entrada. 
 
@@ -41,8 +41,8 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
     MCD(18,12) = 2 * 3 = 6
    
 > La idea detrás es encontrar el número más grande que los divide a ambos.
-
+## Algoritmo Euclideano
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMj
-gxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOT
+gyODAzMDgxLDEyODE3MDUwNzUsMjA3ODEwMzc4NV19
 -->
