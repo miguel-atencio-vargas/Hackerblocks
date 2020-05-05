@@ -42,7 +42,9 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
    
 > La idea detrás es encontrar el número más grande que los divide a ambos.
 ## Algoritmo Euclideano
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOT
-gyODAzMDgxLDEyODE3MDUwNzUsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbLTc1NTY2NTE5NywxODUwNzkzNDkxLC0xMT
+UxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4MTAz
+Nzg1XX0=
 -->
