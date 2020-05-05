@@ -35,17 +35,19 @@ Partamos de lo mas basico, un **divisor** es el conjunto de numeros por el cual 
 Como se puede observar cada numero tiene un conjunto de divisores(que son divisibles por el numero). De aquí podemos extraer intuitivamente de que significa el Maximo Comun Divisor ya que si por ejemplo quiero el MCD de 15, 20 solo tengo que multiplicar los *Divisores comunes de tiene cada numero:*
 
     MCD(15,20) = MAX(1, 5) = 5
-    MCD(18,12) = 2 * 3 = 6
+    
+    MCD(18,12) = MAX(2, 3, 6) = 6
    
 Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar bajo la misma idea con los **factores primos** solo que ahora en ves de considerar a todos los elementos solo consideramos a los números primos:
 
     MCD(18,12) = 2 * 3 = 6
    
 > La idea detrás es encontrar el número más grande que los divide a ambos.
-## Algoritmo Euclideano
+## Algoritmo Euclidiano
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODA3NzU3NCwxODUwNzkzNDkxLC0xMT
-UxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4MTAz
-Nzg1XX0=
+eyJoaXN0b3J5IjpbLTE0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMT
+E1MTA1MzQzNywtOTgyODAzMDgxLDEyODE3MDUwNzUsMjA3ODEw
+Mzc4NV19
 -->
