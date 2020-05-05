@@ -25,12 +25,12 @@ Dos enteros separados por una nueva línea.
 > 8
 ## Analisis de del ejercicio
 Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cual es divisble un numero. Ej: 
-|15| 20 |
-|--|--|
-| 1 x 15| 1x20 |
-|3 x 5|2x10|
+|15| 20 |6||
+|--|--|--|--|
+| 1 x 15| 1x20 |1x6 |
+|3 x 5|2x10|2x3
 |	   |4x5|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNzk2NTg3LDIwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbOTMzODY5NDMsMjA3ODEwMzc4NV19
 -->
