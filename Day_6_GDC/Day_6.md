@@ -24,7 +24,7 @@ Dos enteros separados por una nueva línea.
 ### Salida de muestra 
 > 8
 ## Analisis de del ejercicio
-Pa
+Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cual es divisble un numero. Ej: `15 = 1 `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODg1NDEzMiwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbLTkxMjE0OTI2NSwyMDc4MTAzNzg1XX0=
 -->
