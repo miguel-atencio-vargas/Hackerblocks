@@ -10,14 +10,21 @@ Un número (N1)
 
 Escriba una función que devuelva el Maximo Comun Divisor de N1 y N2. Imprime el valor devuelto.
 
-## Formato de entrada 
+### Formato de entrada 
 
 Dos enteros separados por una nueva línea. 
 
-## Restricciones 
+### Restricciones 
 
-0 <N1 <1x10⁹ 0 <N2 <1x10⁹
-> Written with [StackEdit](https://stackedit.io/).
+    0 <N1 <1x10⁹ 0 <N2 <1x10⁹
+
+### Entrada de muestra 
+> 16 
+> 24 
+### Salida de muestra 
+> 8
+## Analisis de del ejercicio
+Pa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk5NzE2ODYsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbMjA4ODg1NDEzMiwyMDc4MTAzNzg1XX0=
 -->
