@@ -1,7 +1,7 @@
 
 
-# [Day 6 - Euclid's Algorithm for GCD Maximo Comun Divisor | HCF Maximo Factor Comun & LCM ](https://online.codingblocks.com/app/player/92078/content/80922/7751)
-
+# [Day 6 - Euclid's Algorithm for GCD Maximo Comun Divisor | HCF Máximo Factor Común & LCM Mínimo Común Múltiplo](https://online.codingblocks.com/app/player/92078/content/80922/7751)
+### Descripcion
 Tome lo siguiente como entrada. 
 
 Un número (N1)
@@ -76,11 +76,11 @@ int main(){
     return 0; 
 } 
 ```
-## Minimo
-
+## Minimo Comun Multiplo
+El mcm o
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUyODM4MTcsMTE4NTM0MTk2NCwxOT
+eyJoaXN0b3J5IjpbLTE1NjU1MDAyNTAsMTE4NTM0MTk2NCwxOT
 A5NzE4NTI2LDExNzYwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQx
 NDgxLDkzMjYxMjU1OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLT
 E0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgy
