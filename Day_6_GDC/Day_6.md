@@ -32,8 +32,8 @@ Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cua
 | 6 | 1x6 | 2x3||1,2,3,6
 | 18 | 1x18 |2x9|3x6|1,2,3,6,18
 
-Como se puede observar cada numero tiene un conjunto de divisores(que son divisibles por el numero)
+Como se puede observar cada numero tiene un conjunto de divisores(que son divisibles por el numero). De aqui podemos extrarer intuitivamente de que significa el Maximo Comun Divisor
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ3Mzk5NjQsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbLTE2MTYxNTU3NTYsMjA3ODEwMzc4NV19
 -->
