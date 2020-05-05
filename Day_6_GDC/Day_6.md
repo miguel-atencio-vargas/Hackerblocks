@@ -57,10 +57,11 @@ Por ejemplo para 12, 20:
 ![GDC DEMOSTRATION](https://i.imgur.com/g1MxzIu.jpg)
 
 Cuando nos planteamos algoritmos recursivos es muy util verlo como una `Pila de llamadas o Call Stack` a continuacion veremos como se desarrollaría para el mismo ejemplo:
+![enter image description here](https://imgur.com/a/YWY32ur)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Njc0MTQ4MSw5MzI2MTI1NTgsNzgwMD
-c1NDQ3LC0xNDkyMzMxMDE4LC0xNDY2MzEyNjQxLDE4NTA3OTM0
-OTEsLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1MDc1LD
-IwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbLTEzMTYzMjEyMTAsMTY4Njc0MTQ4MSw5Mz
+I2MTI1NTgsNzgwMDc1NDQ3LC0xNDkyMzMxMDE4LC0xNDY2MzEy
+NjQxLDE4NTA3OTM0OTEsLTExNTEwNTM0MzcsLTk4MjgwMzA4MS
+wxMjgxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
 -->
