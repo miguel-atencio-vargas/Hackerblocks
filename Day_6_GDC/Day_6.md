@@ -31,15 +31,15 @@ Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cua
 |3 x 5|2x10|2x3|2x9
 |	   |4x5||3x6
 
-|N°|  |||
-|--|--|--|--|
-| 15 |1x15  |3x5
-| 20 | 1x20 | 
-| 6 | 2x10 |
-| 18 | 4x5 |
+|N°|  |||Divisores
+|--|--|--|--|--|
+| 15 |1x15  |3x5||1,3,5,15
+| 20 | 1x20 | 2x10|4x5|1,2,4,5,10,
+| 6 | 1x6 | 2x3
+| 18 | 1x18 |2x9|3x6
 
 Como se puede observar cada numero tiene un con
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDgzNTIwOCwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbMTA2NjcwNTY5NiwyMDc4MTAzNzg1XX0=
 -->
