@@ -57,10 +57,13 @@ Y la segunda nos dice que cuando `b==0` hemos encontrado la respuesta.
 Por ejemplo para 12, 20:
 
 ![GDC DEMOSTRATION](https://i.imgur.com/g1MxzIu.jpg)
+
 Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de llamadas o Call Stack` a continuación veremos como se desarrollaría para el mismo ejemplo:
 ![Call Stack](https://i.imgur.com/PcEiVVF.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzUxODQ1MiwxMTc2MDA0MjMwLDExOD
+eyJoaXN0b3J5IjpbMTkwOTcxODUyNiwxMTc2MDA0MjMwLDExOD
 Q1Mjg1NjcsMTY4Njc0MTQ4MSw5MzI2MTI1NTgsNzgwMDc1NDQ3
 LC0xNDkyMzMxMDE4LC0xNDY2MzEyNjQxLDE4NTA3OTM0OTEsLT
 ExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1MDc1LDIwNzgx
