@@ -40,8 +40,9 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
 
     MCD(18,12) = 2 * 3 = 6
    
-> La idea detrás es encontrar un número que sea divisible por ambos
+> La idea detrás es encontrar el número más grande que los divide a ambos.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDEyNDk1OCwtOTgyODAzMDgxLDEyOD
-E3MDUwNzUsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMj
+gxNzA1MDc1LDIwNzgxMDM3ODVdfQ==
 -->
