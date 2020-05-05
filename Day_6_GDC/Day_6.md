@@ -48,11 +48,13 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
  Este algoritmo se basa en dos reglas principales:
  
 
-1.     MCD(a,b) = MCD(b, a%b)` 
+1. `MCD(a,b) = MCD(b, a%b)`
 2. `MCD(a,0) = a`
 
+En la primera regla nos cice que ir recursivamente hasta que `b==0` 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NzY3MzE5LC0xNDY2MzEyNjQxLDE4NT
-A3OTM0OTEsLTExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1
-MDc1LDIwNzgxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbMTQzNDQ2Mzk5MywtMTQ2NjMxMjY0MSwxOD
+UwNzkzNDkxLC0xMTUxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcw
+NTA3NSwyMDc4MTAzNzg1XX0=
 -->
