@@ -36,8 +36,8 @@ Como se puede observar cada numero tiene un conjunto de divisores(que son divisi
 
     MCD(15,20) = 1*5 = 5
    
-
+Esta forma seria la mas larga de obtener el MCD pero tambien podemos aplicar bajo la misma idea 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjgwMzA4MSwxMjgxNzA1MDc1LDIwNz
-gxMDM3ODVdfQ==
+eyJoaXN0b3J5IjpbLTczMTA3MjU5MywtOTgyODAzMDgxLDEyOD
+E3MDUwNzUsMjA3ODEwMzc4NV19
 -->
