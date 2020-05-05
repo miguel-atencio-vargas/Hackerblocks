@@ -55,15 +55,14 @@ Esta forma seria la mas larga de obtener el MCD pero también podemos aplicar ba
 En la primera regla nos dice que operemos recursivamente hasta que `b==0` 
 Y la segunda nos dice que cuando `b==0` hemos encontrado la respuesta.
 Por ejemplo para 12, 20:
+
 ![GDC DEMOSTRATION](https://i.imgur.com/g1MxzIu.jpg)
-
 Cuando nos planteamos algoritmos recursivos es muy útil verlo como una `Pila de llamadas o Call Stack` a continuación veremos como se desarrollaría para el mismo ejemplo:
-![enter image description here](https://imgur.com/gallery/XMKC3Yb)
-
+![Call Stack](https://i.imgur.com/PcEiVVF.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIwOTgwNjAsMTE3NjAwNDIzMCwxMT
-g0NTI4NTY3LDE2ODY3NDE0ODEsOTMyNjEyNTU4LDc4MDA3NTQ0
-NywtMTQ5MjMzMTAxOCwtMTQ2NjMxMjY0MSwxODUwNzkzNDkxLC
-0xMTUxMDUzNDM3LC05ODI4MDMwODEsMTI4MTcwNTA3NSwyMDc4
-MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbMTkzMzUxODQ1MiwxMTc2MDA0MjMwLDExOD
+Q1Mjg1NjcsMTY4Njc0MTQ4MSw5MzI2MTI1NTgsNzgwMDc1NDQ3
+LC0xNDkyMzMxMDE4LC0xNDY2MzEyNjQxLDE4NTA3OTM0OTEsLT
+ExNTEwNTM0MzcsLTk4MjgwMzA4MSwxMjgxNzA1MDc1LDIwNzgx
+MDM3ODVdfQ==
 -->
