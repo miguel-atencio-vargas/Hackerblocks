@@ -76,12 +76,12 @@ int main(){
 } 
 ```
 ## Minimo Comun Multiplo
-El mcm o de dos o LCM más  común de todos ellos (o el ínfimo del conjunto de los múltiplos comunes).
+El mcm o LCM es el múltiplo común de todos ellos (o el ínfimo del conjunto de los múltiplos comunes). Partiendo de dos o más números y por descomposición en factores, expresados como producto de factores primos, su mínimo común múltiplo será el resultado de multiplicar todos los factores comunes y no comunes elevados a la mayor potencia, por ejemplo el mcm de 72 y 50 será
 ![enter image description here](https://wikimedia.org/api/rest_v1/media/math/render/svg/0b84c2f7b755f01c833131e91e8d3999a5ffa8eb)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ0NzAyMzUsMTE4NTM0MTk2NCwxOT
-A5NzE4NTI2LDExNzYwMDQyMzAsMTE4NDUyODU2NywxNjg2NzQx
-NDgxLDkzMjYxMjU1OCw3ODAwNzU0NDcsLTE0OTIzMzEwMTgsLT
-E0NjYzMTI2NDEsMTg1MDc5MzQ5MSwtMTE1MTA1MzQzNywtOTgy
-ODAzMDgxLDEyODE3MDUwNzUsMjA3ODEwMzc4NV19
+eyJoaXN0b3J5IjpbMTcyOTIxMTkxMywxMTg1MzQxOTY0LDE5MD
+k3MTg1MjYsMTE3NjAwNDIzMCwxMTg0NTI4NTY3LDE2ODY3NDE0
+ODEsOTMyNjEyNTU4LDc4MDA3NTQ0NywtMTQ5MjMzMTAxOCwtMT
+Q2NjMxMjY0MSwxODUwNzkzNDkxLC0xMTUxMDUzNDM3LC05ODI4
+MDMwODEsMTI4MTcwNTA3NSwyMDc4MTAzNzg1XX0=
 -->
