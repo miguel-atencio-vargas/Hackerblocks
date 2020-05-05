@@ -24,7 +24,7 @@ Dos enteros separados por una nueva línea.
 ### Salida de muestra 
 > 8
 ## Analisis de del ejercicio
-Partamos de lo mas basico, un ** divisor ** es el conjunto de numeros por el cual es divisble un numero. Ej: 
+Partamos de lo mas basico, un **divisor** es el conjunto de numeros por el cual es divisble un numero. Ej: 
 |N°|  |||Divisores
 |--|--|--|--|--|
 | 15 |1x15  |3x5||1, 3, 5, 15
@@ -38,5 +38,6 @@ Como se puede observar cada numero tiene un conjunto de divisores(que son divisi
    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTcwNTA3NSwyMDc4MTAzNzg1XX0=
+eyJoaXN0b3J5IjpbLTk4MjgwMzA4MSwxMjgxNzA1MDc1LDIwNz
+gxMDM3ODVdfQ==
 -->
