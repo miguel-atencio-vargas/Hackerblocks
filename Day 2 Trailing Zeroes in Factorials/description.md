@@ -43,9 +43,9 @@ La idea es considerar los factores primos de un factorial n. Un cero al final si
     10! = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 = 3628800
 
 Si podemos contar el número de 5's y 2's, nuestra tarea está hecha. Considere los siguientes ejemplos:
-> n = 5: Hay un 5 y 3 dos en factores primos de 5!= (2³ * 5) Entonces, el recuento de ceros al final es 1.
+> n = 5: Hay un 5 y 3 dos en factores primos de 5!= (2³ * 3 * 5) Entonces, el recuento de ceros al final es 1.
 
-> n = 11: Hay dos 5 y ocho 2 en factores primos de 11! = (2⁸ * 3⁴ * 5² * 7)
+> n = 11: Hay dos 5 y ocho 2 en factores primos de 11! = (2⁸ * 3⁴ * 5² * 7 * 11)
 > Entonces, el recuento de ceros al final es 2.
 > 
 >Nota: el recuento de ceros necesita que ambos números sean iguales.
